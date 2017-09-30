@@ -1,0 +1,194 @@
+<template>
+    <footer>
+        <div>
+            <div class="footer iparsys parsys">
+                <div class="column">
+                    <div class="container-fluid background-black ">
+                        <div class="container background-black ">
+                            <div class="clearfix row background-black everyDevice text-white   padding-2x-top  padding-4x-bottom" style="background-image: url('');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                <div class="col-sm-3 ">
+                                    <div class="container-inner">
+                                        <div class="parsys">
+                                            <div class="richtext">
+                                                <div class=" padding-2x-top  width-100 ">
+                                                    <h6>联系我们</h6>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="textwithicon">
+                                                <div>
+                                                    <div class="icon-column">
+                                                        <i class="fa fa-map-marker fa-fw fa-lg "></i>
+                                                    </div>
+                                                    <div class="text-column">
+                                                        <a href="http://www.crown.com/content/zh-cn/forklift-dealers.html">
+                                                            <div>
+                                                                <p>查找经销商</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="textwithicon">
+                                                <div>
+                                                    <div class="icon-column    ">
+                                                        <i class="fa fa-group fa-fw fa-lg text-white"></i>
+                                                    </div>
+                                                    <div class="text-column    ">
+                                                        <a href="http://www.crown.com/content/zh-cn/contact-us.html">
+                                                            <div>
+                                                                <p>联系我们</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="textwithicon">
+                                                <div>
+                                                    <div class="icon-column    ">
+                                                        <i class="fa fa-phone fa-fw fa-lg "></i>
+                                                    </div>
+                                                    <div class="text-column    ">
+                                                        <p>13812791230</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 ">
+                                    <div class="container-inner">
+                                        <div class="parsys">
+                                            <div class="richtext">
+                                                <div class=" padding-2x-top   width-100 ">
+                                                    <h6>关于 Crown-科朗</h6>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="textwithicon">
+                                                <div>
+                                                    <div class="text-column-no-padding    ">
+                                                        <a href="http://www.crown.com/content/zh-cn/about-us.html">
+                                                            <div>
+                                                                <p>公司简介</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="textwithicon">
+                                                <div>
+                                                    <div class="text-column-no-padding    ">
+                                                        <a href="http://www.crown.com/content/zh-cn/careers.html">
+                                                            <div>
+                                                                <p>招贤纳士</p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 ">
+                                    <div class="container-inner">
+                                        <div class="parsys"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 ">
+                                    <div class="container-inner">
+                                        <div class="parsys">
+                                            <div class="richtext">
+                                                <div class=" padding-2x-top   width-100 ">
+                                                    <h6>站内搜索</h6>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="sitesearchbox">
+                                                <form action="http://www.crown.com/zh-cn/search-results.html" accept-charset="UTF-8">
+                                                    <label for="sitesearch">
+                                                        <i class="fa fa-search sitesearch-icon"></i> 
+                                                        <span class="sr-only">
+                                                            Search
+                                                        </span>
+                                                    </label>
+                                                    <input id="sitesearch" class="sitesearch" maxlength="2048" name="q" placeholder="搜索 Crown-科朗"/>
+                                                </form>            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container-fluid background-black ">
+                        <div class="container background-black ">
+                            <div class="clearfix row background-black everyDevice text-white     " style="background-image: url('');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                <div class="col-sm-8 ">
+                                    <div class="container-inner">
+                                        <div class="parsys">
+                                            <div class="richtext">
+                                                <div class="    width-100 text-left">
+                                                    <p>
+                                                        <span class="text-grey-lighter">
+                                                            © 2002-2017 科朗设备（苏州）有限公司&nbsp; | 
+                                                            &nbsp;<a href="http://www.crown.com/zh-cn/legal-policies.html" target="_blank">法律政策</a>&nbsp; |
+                                                            &nbsp;<a href="http://www.crown.com/content/dam/crown/pdfs/zh-cn/legal/code-of-conduct.pdf" target="_blank">行为准则</a>&nbsp;&nbsp;|
+                                                            <a href="http://www.miitbeian.gov.cn/" target="_blank">&nbsp;苏ICP备10029256号-1</a>
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 ">
+                                    <div class="container-inner">
+                                        <div class="parsys">
+                                            <div class="socialicons">
+                                                <div>
+                                                    <ul id="footer-column_0-column2-socialicons-connect-list" role="group">
+                                                        <li>
+                                                            <a href="https://wx.qq.com/undefined?lang=zh_CN" target="_blank" tabindex="-1">
+                                                                <i class="fa fa-wechat fa-fw"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new section">
+                </div>
+                <div class="iparys_inherited">
+                    <div class="par">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</template>
+
+<script>
+export default {
+  name: 'footer',
+  data () {
+    return {
+      msg: 'i am my-header tag'
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+</style>

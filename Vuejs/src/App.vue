@@ -1,19 +1,31 @@
 <template>
   <div id="app">
-    <Header></Header>
+    <MyHeader></MyHeader>
+    <MyFloater></MyFloater>
+    <MyCarousel></MyCarousel>
+
+
+
+
     <router-view></router-view>
-    <Footer></Footer>
+
+    <MyFooter></MyFooter>
   </div>
 </template>
 
 <script>
-import Header from './components/commons/Header'
-import Footer from './components/commons/Footer'
+import MyHeader from './components/commons/MyHeader'
+import MyFooter from './components/commons/MyFooter'
+import MyFloater from './components/commons/MyFloater'
+import MyCarousel from './components/commons/MyCarousel'
+
 export default {
   name: 'app',
   components: {
-    Header,
-    Footer
+    MyHeader,
+    MyFooter,
+    MyFloater,
+    MyCarousel
   }
 }
 </script>
