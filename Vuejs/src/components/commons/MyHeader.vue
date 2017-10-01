@@ -10,8 +10,6 @@
                 </div>
             </div>
         </div>
-
-    
         <div>
             <div class="header iparsys parsys">
                 <div class="header">
@@ -20,21 +18,20 @@
                             <div class="container-fluid clearfix localeselectorheader background-light-black">
                                 <div id="menubar" class="container">
                                     <ul>               
-                                        <li><i class="fa fa-phone"></i> 13812791230</li>
+                                        <li><i class="fa fa-phone"></i> {{header_phone}}</li>
                                         <li> | </li>
-                                        <li><i class="fa fa-envelope-o"></i> lemon@yunjiya.cn </li>
+                                        <li><i class="fa fa-envelope-o"></i> {{header_email}} </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>  
-                        
                         <nav class="navbar theme-nav-main" role="navigation">
                             <div class="theme-container-nav">
                                 <div class="navbar-header">
                                     <div class="nav-logo">
-                                        <a class="navbar-brand theme-navbar-brand" href="/">
-                                            <img class="img-responsive" src="/static/title_logo.png" alt="云吉亚" title="Yunjiya" data-emptytext="Logo"/>
-                                        </a>
+                                        <router-link :to="'/'" class="navbar-brand theme-navbar-brand">
+                                            <img class="img-responsive" :src="logo_url" :alt="logo_title" :title="logo_title" data-emptytext="Logo"/>
+                                        </router-link>
                                     </div>
                                     <div class="nav-button-navigation navbar-right text-right hidden-lg">  
                                         <ul class="list-inline">
@@ -305,7 +302,11 @@ export default {
   name: 'header',
   data () {
     return {
-      msg: 'i am my-header tag'
+      header_phone: '13812791230',
+      header_email: 'lemon@yunjiya.cn',
+      logo_url: '/static/title_logo.png',
+      logo_title: '云吉亚 Yunjiya',
+      dummy: 'DUMMY'
     }
   }
 }

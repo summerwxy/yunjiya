@@ -9,7 +9,7 @@
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
                                 <div class="container-fluid  ">
                                     <div>
-                                        <div class="clearfix row-child  everyDevice text-white     " style="background-image: url('\2f content\2f dam\2f crown\2fimages\2fhome-page\2fus-homepage-hero-1.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                        <div class="clearfix row-child  everyDevice text-white     " style="background-image: url('static\2f us-homepage-hero-1.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-12 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
@@ -38,7 +38,7 @@
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
                                 <div class="container-fluid background-black ">
                                     <div class="background-black ">
-                                        <div class="clearfix row-child background-black desktopTabletOnly text-white" style="background-image: url('\2f content\2f dam\2f crown\2fimages\2fhome-page\2f fc-homepage-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                        <div class="clearfix row-child background-black desktopTabletOnly text-white" style="background-image: url('static\2f fc-homepage-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-6 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
@@ -90,7 +90,7 @@
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
                                 <div class="container-fluid  ">
                                     <div>
-                                        <div class="clearfix row-child  everyDevice text-white     " style="background-image: url('\2f content\2f dam\2f crown\2fimages\2fhome-page\2fus-homepage-hero-3.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                        <div class="clearfix row-child  everyDevice text-white     " style="background-image: url('static\2f us-homepage-hero-3.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-6 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
@@ -122,7 +122,7 @@
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
                                 <div class="container-fluid background-black ">
                                     <div class="background-black ">
-                                        <div class="clearfix row-child background-black desktopTabletOnly text-white     " style="background-image: url('\2f content\2f dam\2f crown\2fimages\2fhome-page\2fsc-homepage-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                        <div class="clearfix row-child background-black desktopTabletOnly text-white     " style="background-image: url('static\2f sc-homepage-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-6 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
@@ -168,36 +168,37 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <!--
-                <script src="http://www.crown.com/etc/clientlibs/global-web/core/js/vendor/slick.min.js"></script>
-                <script>
-                var mySlick = $('#mainpar\u002Dcarousel').slick({
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerMode: false,
-                    arrows: true,
-                    autoplay: true,
-                    autoplaySpeed: 7000,
-                    dots: true
-                });
-                </script>
-                -->
-            </div>
         </div>
     </div>
 </template>
 
 <script>
+// TODO: button prev not show...
+import $ from 'jquery'
+require('slick-carousel')
 export default {
   name: 'carousel',
   data () {
     return {
       msg: 'i am my-header tag'
     }
+  },
+  mounted () {
+    this.$nextTick(() => {
+      $('#mainpar-carousel').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: false,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 7000,
+        dots: true
+      })
+    })
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
