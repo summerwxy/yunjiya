@@ -7,9 +7,9 @@
                     <div class="wrapper">
                         <div id="mainpar-carousel">
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
-                                <div class="container-fluid  ">
+                                <div class="container-fluid">
                                     <div>
-                                        <div class="clearfix row-child  everyDevice text-white     " style="background-image: url('static\2f us-homepage-hero-1.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                        <div class="clearfix row-child everyDevice text-white" style="background-image: url('static\2f us-homepage-hero-1.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-12 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
@@ -180,7 +180,8 @@ export default {
   name: 'carousel',
   data () {
     return {
-      msg: 'i am my-header tag'
+        // http://via.placeholder.com/350x150
+      dummy: 'DUMMY'
     }
   },
   mounted () {

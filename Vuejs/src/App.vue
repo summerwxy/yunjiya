@@ -4,9 +4,6 @@
     <MyFloater></MyFloater>
     <MyCarousel></MyCarousel>
 
-
-
-
     <router-view></router-view>
 
     <MyFooter></MyFooter>

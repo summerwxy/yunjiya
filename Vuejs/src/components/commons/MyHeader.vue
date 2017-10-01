@@ -58,9 +58,9 @@
                                     </div>
                                     <div class="collapse navbar-collapse theme-navbar-collapse " id="navbar-main">
                                         <ul class="nav navbar-nav theme-navbar-nav ">
-                                            <li class="dropdown">
+                                              <li class="dropdown" v-for="(category, index) in menu">
                                                 <a data-target="#" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    产品
+                                                    {{ category.category }}
                                                 </a>
                                                 <label class="hidden">Drawer</label>
                                                 <div class="dropdown-menu theme-nav-dropdown-menu background-black" role="menu">
@@ -68,22 +68,13 @@
                                                         <div class="row">
                                                             <div class="col-sm-4 theme-nav-dropdown-menu-list-container">
                                                                 <ul class="theme-nav-dropdown-menu-list">
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/forklifts.html">全新叉车</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/forklift-rentals.html">租赁叉车</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/pre-owned-forklifts.html">二手叉车</a>
-                                                                    </li>                
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/products.html">查看所有产品</a>
+                                                                    <li role="presentation" v-for="(item, j) in category.items">
+                                                                        <a role="menuitem" tabindex="-1" :href="item.url">{{item.title}}</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
                                                             <div class="col-sm-8 hidden-xs container-side-content" id="drawer-side-content">
-                                                                jQuery("#drawer-side-content").load("\/content\/zh\u002Dcn\/main\u002Dnavigation\u002Ddrawer\/products.html #content");
+                                                                [SOMETHING HERE]
                                                             </div>                    
                                                         </div>
                                                     </div>
@@ -96,144 +87,8 @@
                                                     <div class="dropdown-bottom-line"></div>
                                                 </div>
                                             </li>
-                                            <li class="dropdown">
-                                                <a data-target="#" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    解决方案
-                                                </a><label class="hidden"> Drawer</label>
-                                                <div class="dropdown-menu theme-nav-dropdown-menu background-black" role="menu">
-                                                    <div class="container container-dropdown text-white background-black">
-                                                        <div class="row">
-                                                            <div class="col-sm-4 theme-nav-dropdown-menu-list-container">
-                                                                <ul class="theme-nav-dropdown-menu-list">
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/fleet-management.html">车队管理</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/financing.html">金融方案</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/solutions.html">查看所有解决方案</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-sm-8 hidden-xs container-side-content" id="drawer_0-side-content">
-                                                                jQuery("#drawer_0-side-content").load("\/content\/zh\u002Dcn\/main\u002Dnavigation\u002Ddrawer\/solutions.html #content");
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="container visible-lg">
-                                                        <div class="row">
-                                                            <div class="col-xs-12 container-theme-nav-dropdown-close"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="dropdown-bottom-line"></div>
-                                                </div>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a data-target="#" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    支持
-                                                </a>
-                                                <label class="hidden"> Drawer</label>
-                                                <div class="dropdown-menu theme-nav-dropdown-menu background-black" role="menu">
-                                                    <div class="container container-dropdown text-white background-black">
-                                                        <div class="row">
-                                                            <div class="col-sm-4 theme-nav-dropdown-menu-list-container">
-                                                                <ul class="theme-nav-dropdown-menu-list">
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/safety-training.html">安全与培训</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/service-parts.html">服务与部件</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/forklift-dealers.html">经销商网络</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/support.html">查看所有支持</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-sm-8 hidden-xs container-side-content" id="drawer_1-side-content">
-                                                                jQuery("#drawer_1-side-content").load("\/content\/zh\u002Dcn\/main\u002Dnavigation\u002Ddrawer\/support.html #content");
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="container visible-lg">
-                                                        <div class="row">
-                                                            <div class="col-xs-12 container-theme-nav-dropdown-close"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="dropdown-bottom-line"></div>
-                                                </div>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a data-target="#" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    为什么选择 Crown-科朗
-                                                </a>
-                                                <label class="hidden"> Drawer</label>
-                                                <div class="dropdown-menu theme-nav-dropdown-menu background-black" role="menu">
-                                                    <div class="container container-dropdown text-white background-black">
-                                                        <div class="row">
-                                                            <div class="col-sm-4 theme-nav-dropdown-menu-list-container">
-                                                                <ul class="theme-nav-dropdown-menu-list">
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/customer-results.html">客户案例</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/sustainability.html">可持续发展</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/awards.html">行业认可</a>
-                                                                    </li>
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/zh-cn/why-crown.html">为什么选择 Crown-科朗</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-sm-8 hidden-xs container-side-content" id="drawer_2-side-content">
-                                                                jQuery("#drawer_2-side-content").load("\/content\/zh\u002Dcn\/main\u002Dnavigation\u002Ddrawer\/why\u002Dcrown.html #content");
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="container visible-lg">
-                                                        <div class="row">
-                                                            <div class="col-xs-12 container-theme-nav-dropdown-close"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="dropdown-bottom-line"></div>
-                                                </div>
-                                            </li>
-                                            <li data-name="createddrawer_3" data-path="/content/zh-cn/jcr:content/header/header/mainnav/createddrawer_3">
-                                                <a href="#modal-contact-form" data-toggle="modal" data-target="#modal-contact-form" class="dropdown-toggle link-only mobile-only link-only">联系我们</a>
-                                            </li>
-                                            <li data-name="createddrawer_4" data-path="/content/zh-cn/jcr:content/header/header/mainnav/createddrawer_4">
-                                                <a href="http://www.crown.com/en-cn.html" class="dropdown-toggle link-only mobile-only link-only">English</a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="http://www.crown.com/global-selector-page.html" class="{drawer.textColor} mobile-only link-only" onclick="Crown.Common.Cookies.eraseCookie('crownlocation');">Location / Language</a>
-                                                <label class="hidden" id="Location / Language">Location / Language Drawer</label>
-                                                <div class="dropdown-menu theme-nav-dropdown-menu background-black" role="menu" aria-labelledby="Location / Language">
-                                                    <div class="container container-dropdown text-white background-black">
-                                                        <div class="row">
-                                                            <div class="col-sm-4 theme-nav-dropdown-menu-list-container">
-                                                                <ul class="theme-nav-dropdown-menu-list">
-                                                                    <li role="presentation">
-                                                                        <a role="menuitem" tabindex="-1" href="http://www.crown.com/global-selector-page.html" onclick="Crown.Common.Cookies.eraseCookie('crownlocation');">中国（切换)</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-sm-8 hidden-xs container-side-content" id="createddrawer_5-side-content">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="container visible-lg">
-                                                        <div class="row">
-                                                            <div class="col-xs-12 container-theme-nav-dropdown-close">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="dropdown-bottom-line"></div>
-                                                </div>
+                                            <li v-for="(link, i) in links">
+                                                <a :href="link.url" class="dropdown-toggle link-only mobile-only link-only" style="color: lightpink;">{{link.text}}</a>
                                             </li>
                                         </ul>
                                         <div class="hidden-lg">
@@ -261,8 +116,6 @@
                                     <div class="breadcrumb"></div>
                                 </div>
                             </div>
-
-
                             <div class="modal fade modal-sitesearch " id="modal-search" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
@@ -293,32 +146,49 @@
     </header>
 </template>
 
-
- 
-
-
 <script>
 export default {
   name: 'header',
   data () {
     return {
-      header_phone: '13812791230',
-      header_email: 'lemon@yunjiya.cn',
+      header_phone: '联系电话：13812791230',
+      header_email: '电子邮箱：lemon@yunjiya.cn',
       logo_url: '/static/title_logo.png',
       logo_title: '云吉亚 Yunjiya',
+      menu: [{
+        category: '产品',
+        items: [{title: '全新叉车', url: 'http://www.crown.com/zh-cn/forklifts.html'},
+          {title: '租赁叉车', url: 'http://www.crown.com/zh-cn/forklift-rentals.html'},
+          {title: '二手叉车', url: 'http://www.crown.com/zh-cn/pre-owned-forklifts.html'},
+          {title: '查看所有产品', url: 'http://www.crown.com/zh-cn/products.html'}]
+      }, {
+        category: '解决方案',
+        items: [{title: '车队管理', url: 'http://www.crown.com/zh-cn/fleet-management.html'},
+          {title: '金融方案', url: 'http://www.crown.com/zh-cn/financing.html'},
+          {title: '查看所有解决方案', url: 'http://www.crown.com/zh-cn/solutions.html'}]
+      }, {
+        category: '支持',
+        items: [{title: '安全与培训', url: 'http://www.crown.com/zh-cn/safety-training.html'},
+          {title: '服务与部件', url: 'http://www.crown.com/zh-cn/service-parts.html'},
+          {title: '经销商网络', url: 'http://www.crown.com/zh-cn/forklift-dealers.html'},
+          {title: '查看所有支持', url: 'http://www.crown.com/zh-cn/support.html'}]
+      }, {
+        category: '为什么选择 Crown-科朗',
+        items: [{title: '客户案例', url: 'http://www.crown.com/zh-cn/customer-results.html'},
+          {title: '可持续发展', url: 'http://www.crown.com/zh-cn/sustainability.html'},
+          {title: '行业认可', url: 'http://www.crown.com/zh-cn/awards.html'},
+          {title: '为什么选择 Crown-科朗', url: 'http://www.crown.com/zh-cn/why-crown.html'}]
+      }],
+      links: [
+        {text: '联系电话：13812791230', url: 'tel:13812791230'},
+        {text: '电子邮箱：lemon@yunjiya.cn', url: 'mailto:?Subject=云吉亚，你好！我有一些需要'}
+      ],
       dummy: 'DUMMY'
     }
   }
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-
-
-
-
-
 
 </style>
