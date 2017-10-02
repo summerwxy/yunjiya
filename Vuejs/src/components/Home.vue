@@ -1,5 +1,6 @@
 <template>
     <div class="home">
+        <MyCarousel></MyCarousel>
         <div class="column">
             <div class="container-fluid  ">
                 <div class="container  ">
@@ -396,12 +397,17 @@
 </template>
 
 <script>
+import MyCarousel from './commons/MyCarousel'
+
 export default {
   name: 'home',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    MyCarousel
   }
 }
 </script>

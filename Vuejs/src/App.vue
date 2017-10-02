@@ -2,7 +2,6 @@
   <div id="app">
     <MyHeader></MyHeader>
     <MyFloater></MyFloater>
-    <MyCarousel></MyCarousel>
 
     <router-view></router-view>
 
@@ -14,15 +13,13 @@
 import MyHeader from './components/commons/MyHeader'
 import MyFooter from './components/commons/MyFooter'
 import MyFloater from './components/commons/MyFloater'
-import MyCarousel from './components/commons/MyCarousel'
 
 export default {
   name: 'app',
   components: {
     MyHeader,
     MyFooter,
-    MyFloater,
-    MyCarousel
+    MyFloater
   }
 }
 </script>
