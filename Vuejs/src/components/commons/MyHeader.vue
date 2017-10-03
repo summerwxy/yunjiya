@@ -69,7 +69,8 @@
                                                             <div class="col-sm-4 theme-nav-dropdown-menu-list-container">
                                                                 <ul class="theme-nav-dropdown-menu-list">
                                                                     <li role="presentation" v-for="(item, j) in category.items">
-                                                                        <a role="menuitem" tabindex="-1" :href="item.url">{{item.title}}</a>
+                                                                        <router-link :to="item.path" v-if="item.path">{{item.title}}</router-link>
+                                                                        <a role="menuitem" tabindex="-1" v-else :href="item.url" style="color: red;">{{item.title}}</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -113,7 +114,9 @@
                                     </div>
                                 </div>
                                 <div class="breadcrumb-container">
-                                    <div class="breadcrumb"></div>
+                                    <div class="breadcrumb">
+                                        <router-link :to="'/'">返回主页</router-link> / 
+                                    </div>
                                 </div>
                             </div>
                             <div class="modal fade modal-sitesearch " id="modal-search" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -158,27 +161,27 @@ export default {
       logo_title: '云吉亚 Yunjiya',
       menu: [{
         category: '产品',
-        items: [{title: '全新叉车', url: 'http://www.crown.com/zh-cn/forklifts.html'},
-          {title: '租赁叉车', url: 'http://www.crown.com/zh-cn/forklift-rentals.html'},
-          {title: '二手叉车', url: 'http://www.crown.com/zh-cn/pre-owned-forklifts.html'},
-          {title: '查看所有产品', url: 'http://www.crown.com/zh-cn/products.html'}]
+        items: [{title: '全新叉车', path: 'forklifts'},
+          {title: '租赁叉车', path: 'rentals'},
+          {title: '二手叉车', path: 'pre-owned'},
+          {title: '查看所有产品', path: 'products'}]
       }, {
         category: '解决方案',
-        items: [{title: '车队管理', url: 'http://www.crown.com/zh-cn/fleet-management.html'},
-          {title: '金融方案', url: 'http://www.crown.com/zh-cn/financing.html'},
-          {title: '查看所有解决方案', url: 'http://www.crown.com/zh-cn/solutions.html'}]
+        items: [{title: '车队管理', path: 'fleet-management'},
+          {title: '金融方案', path: 'financing'},
+          {title: '查看所有解决方案', path: 'solutions'}]
       }, {
         category: '支持',
-        items: [{title: '安全与培训', url: 'http://www.crown.com/zh-cn/safety-training.html'},
-          {title: '服务与部件', url: 'http://www.crown.com/zh-cn/service-parts.html'},
-          {title: '经销商网络', url: 'http://www.crown.com/zh-cn/forklift-dealers.html'},
-          {title: '查看所有支持', url: 'http://www.crown.com/zh-cn/support.html'}]
+        items: [{title: '安全与培训', path: 'safety-training'},
+          {title: '服务与部件', path: 'service-parts'},
+          {title: '经销商网络', path: 'forklift-dealers'},
+          {title: '查看所有支持', path: 'support'}]
       }, {
         category: '为什么选择 Crown-科朗',
-        items: [{title: '客户案例', url: 'http://www.crown.com/zh-cn/customer-results.html'},
-          {title: '可持续发展', url: 'http://www.crown.com/zh-cn/sustainability.html'},
-          {title: '行业认可', url: 'http://www.crown.com/zh-cn/awards.html'},
-          {title: '为什么选择 Crown-科朗', url: 'http://www.crown.com/zh-cn/why-crown.html'}]
+        items: [{title: '客户案例', path: 'customer-results'},
+          {title: '可持续发展', path: 'sustainability'},
+          {title: '行业认可', path: 'awards'},
+          {title: '为什么选择 Crown-科朗', path: 'why'}]
       }],
       links: [
         {text: '联系电话：13812791230', url: 'tel:13812791230'},
