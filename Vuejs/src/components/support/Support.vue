@@ -38,22 +38,6 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <!--
-                <script>
-                    $(document).ready(function() {
-                        var tallestColumnHeight = 0;
-                        $('.container-vertical-aligned').find('.col-vertical-aligned').each(function() {
-                            var $this = $(this);
-                            if (tallestColumnHeight < $this.height()) {
-                                tallestColumnHeight = $this.height();
-                            }
-                        });
-                        $('.container-vertical-aligned').find('.col-vertical-aligned').height(tallestColumnHeight);
-                    })
-                </script>
-                -->
-            </div>
         </div>
         <div class="stickynav">
             <div>
@@ -164,22 +148,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <!--
-                <script>
-                    $(document).ready(function() {
-                        var tallestColumnHeight = 0;
-                        $('.container-vertical-aligned').find('.col-vertical-aligned').each(function() {
-                            var $this = $(this);
-                            if (tallestColumnHeight < $this.height()) {
-                                tallestColumnHeight = $this.height();
-                            }
-                        });
-                        $('.container-vertical-aligned').find('.col-vertical-aligned').height(tallestColumnHeight);
-                    })
-                </script>
-                -->
             </div>
         </div>
 
