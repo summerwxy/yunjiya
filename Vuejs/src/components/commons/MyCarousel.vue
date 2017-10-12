@@ -9,7 +9,7 @@
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
                                 <div class="container-fluid">
                                     <div>
-                                        <div class="clearfix row-child everyDevice text-white" style="background-image: url('static\2f us-homepage-hero-1.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                        <div class="clearfix row-child everyDevice text-white" style="background-image: url('/static/c/us-homepage-hero-1.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-12 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
@@ -24,7 +24,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="calltoactionbutton">
-                                                            <div class="text-center  padding-2x-top   ">
+                                                            <div class="text-center padding-2x-top">
                                                                 <a href="#" class="btn btn-cta text-white background-orange" data-toggle="modal" data-target="#modal-contact-form">立刻联系我们</a>
                                                             </div>
                                                         </div>
@@ -36,9 +36,9 @@
                                 </div>
                             </div>
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
-                                <div class="container-fluid background-black ">
-                                    <div class="background-black ">
-                                        <div class="clearfix row-child background-black desktopTabletOnly text-white" style="background-image: url('static\2f fc-homepage-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                <div class="container-fluid background-black">
+                                    <div class="background-black">
+                                        <div class="clearfix row-child background-black desktopTabletOnly text-white" style="background-image: url('/static/c/fc-homepage-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-6 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
@@ -57,7 +57,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="calltoactionbutton">
-                                                            <div class="text-center  padding-2x-top   ">
+                                                            <div class="text-center padding-2x-top">
                                                                 <a href="http://www.crown.com/zh-cn/forklifts/fc-sit-down-counterbalanced-truck.html" class="btn btn-cta text-white background-orange">了解更多</a>
                                                             </div>
                                                         </div>
@@ -68,16 +68,14 @@
                                                 <div class="container-inner">
                                                     <div class="parsys">
                                                         <div class="imagecomponent">
-                                                            <div class="container-image padding-2x-top  no-padding-bottom text-black clearfix">
-                                                                <!--
+                                                            <div class="container-image padding-2x-top no-padding-bottom text-black clearfix">
                                                                 <picture>
-                                                                    < ! - - [if IE 9]><video style="display: none;"><![endif] - - >
-                                                                <source srcset="/content/dam/crown/images/home-page/fc-homepage-hero-mobile.png" media="(max-width: 450px)">
-                                                                <source media="(max-width: 768px)">
-                                                                    < ! - - [if IE 9]></video><![endif] - - >
+                                                                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                    <source srcset="http://www.crown.com/content/dam/crown/images/home-page/fc-homepage-hero-mobile.png" media="(max-width: 450px)">
+                                                                    <source media="(max-width: 768px)">
+                                                                    <!--[if IE 9]></video><![endif]-->
                                                                     <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/empty-img.png" alt="SC 6000"/>
                                                                 </picture>
-                                                                -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -88,14 +86,14 @@
                                 </div>
                             </div>
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
-                                <div class="container-fluid  ">
+                                <div class="container-fluid">
                                     <div>
-                                        <div class="clearfix row-child  everyDevice text-white     " style="background-image: url('static\2f us-homepage-hero-3.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                        <div class="clearfix row-child everyDevice text-white" style="background-image: url('/static/c/us-homepage-hero-3.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-6 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
                                                         <div class="richtext">
-                                                            <div class="padding-2x-left padding-4x-top   width-90 text-left">
+                                                            <div class="padding-2x-left padding-4x-top width-90 text-left">
                                                                 <h2>InfoLink车队和操作员管理系统</h2>
                                                                 <h4>连接。管理。实现。</h4>
                                                             </div>
@@ -120,14 +118,14 @@
                                 </div>
                             </div>
                             <div class="column col-xs-12 carousel-min-height col-sm-12 col-md-12 col-lg-12 col-xs-pull-0 col-sm-push-0 col-md-push-0 col-lg-push-0" style="width:1200px;">
-                                <div class="container-fluid background-black ">
-                                    <div class="background-black ">
-                                        <div class="clearfix row-child background-black desktopTabletOnly text-white     " style="background-image: url('static\2f sc-homepage-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                                <div class="container-fluid background-black">
+                                    <div class="background-black">
+                                        <div class="clearfix row-child background-black desktopTabletOnly text-white" style="background-image: url('/static/c/sc-homepage-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                                             <div class="col-sm-6 ">
                                                 <div class="container-inner">
                                                     <div class="parsys">
                                                         <div class="richtext">
-                                                            <div class=" padding-6x-top   width-100 component-center">
+                                                            <div class=" padding-6x-top width-100 component-center">
                                                                 <h2 style="text-align: center;">SC 6000<b>系列</b></h2>
                                                                 <h4 style="text-align: center;"><b>设计用于在室内外执行任务</b></h4>
                                                             </div>
@@ -141,20 +139,18 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 ">
+                                            <div class="col-sm-6">
                                                 <div class="container-inner">
                                                     <div class="parsys">
                                                         <div class="imagecomponent">
-                                                            <div class="container-image padding-2x-top  no-padding-bottom text-black clearfix">
-                                                                <!--
+                                                            <div class="container-image padding-2x-top no-padding-bottom text-black clearfix">
                                                                 <picture>
-                                                                    < ! - - [if IE 9]><video style="display: none;"><![endif] - - >
-                                                                <source srcset="/content/dam/crown/images/home-page/sc-homepage-hero-mobile.png" media="(max-width: 450px)">
-                                                                <source media="(max-width: 768px)">
-                                                                    < ! - - [if IE 9]></video><![endif] - - >
-                                                                    <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/empty-img.png" alt="SC 6000"/>
+                                                                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                    <source srcset="http://www.crown.com/content/dam/crown/images/home-page/sc-homepage-hero-mobile.png" media="(max-width: 450px)">
+                                                                    <source media="(max-width: 768px)">
+                                                                    <!--[if IE 9]></video><![endif]-->
+                                                                    <img class="img-responsive" src="http://www.crown.com/content/dam/crown/images/empty-img.png" alt="SC 6000"/>
                                                                 </picture>
-                                                                -->
                                                             </div>
                                                         </div>
                                                     </div>
@@ -173,7 +169,7 @@
 </template>
 
 <script>
-// TODO: button prev not show...
+// TOREAD: 修改了 slick.js 裡面的 ln: 452 把 _.$prevArrow.prependTo(_.options.appendArrows); 改成  _.$prevArrow.appendTo(_.options.appendArrows); 解決按鈕沒出現問題
 import $ from 'jquery'
 require('slick-carousel')
 export default {
@@ -202,7 +198,6 @@ export default {
 
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .component-carousel .column .container-fluid .row-child {
     min-height: 500px;

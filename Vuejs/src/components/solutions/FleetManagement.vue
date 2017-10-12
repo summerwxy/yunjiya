@@ -23,13 +23,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black clearfix">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/fleet-management/fleet-management-feature-hero.png.transform/mobile-image/img.png" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/fleet-management/fleet-management-feature-hero.png.transform/tablet-image/img.png" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/solutions/fleet-management/fleet-management-feature-hero.png" alt="fleet management data displayed on a tablet">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/solutions/fleet-management/fleet-management-feature-hero.png" alt="fleet management data displayed on a tablet"/>
                                         </div>
                                     </div>
                                 </div>
@@ -69,13 +63,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black clearfix">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/fleet-management/info-link-feature.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/fleet-management/info-link-feature.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/solutions/fleet-management/info-link-feature.jpg" alt="Crown InfoLink Fleet and Operator Management System">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/solutions/fleet-management/info-link-feature.jpg" alt="Crown InfoLink Fleet and Operator Management System"/>
                                         </div>
                                     </div>
                                 </div>
@@ -85,7 +73,7 @@
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="richtext">
-                                        <div class="   padding-2x-bottom width-100 text-left">
+                                        <div class="padding-2x-bottom width-100 text-left">
                                             <h3>车队和操作员管理</h3>
                                             <p>实时了解仓库相关信息，根据运行数据进行更合理决策，从而节省时间和费用。</p>
                                         </div>

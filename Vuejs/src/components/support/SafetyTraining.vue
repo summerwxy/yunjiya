@@ -50,13 +50,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/support/safety-and-training/safe-applications-feature.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/support/safety-and-training/safe-applications-feature.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/support/safety-and-training/safe-applications-feature.jpg" alt="lift truck operator wears safety harness on Crown stockpicker " title="Application Safety">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/support/safety-and-training/safe-applications-feature.jpg" alt="lift truck operator wears safety harness on Crown stockpicker " title="Application Safety"/>
                                         </div>
                                     </div>
                                 </div>

@@ -3,9 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import MyPicture from './components/commons/MyPicture'
 
-// font-awesome
-require('font-awesome/css/font-awesome.css')
+// === css ===
+require('font-awesome/css/font-awesome.css') // font-awesome
+require('../static/styles/style.css')
+
+// reigister globally components
+Vue.component('my-picture', MyPicture)
 
 Vue.config.productionTip = false
 

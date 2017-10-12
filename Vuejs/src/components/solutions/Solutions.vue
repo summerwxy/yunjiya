@@ -117,13 +117,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black clearfix">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/forklift-purchase-rental-feature.png.transform/mobile-image/img.png" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/forklift-purchase-rental-feature.png.transform/tablet-image/img.png" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/solutions/forklift-purchase-rental-feature.png" alt="Flexible Fianancing">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/solutions/forklift-purchase-rental-feature.png" alt="Flexible Fianancing"/>
                                         </div>
                                     </div>
                                 </div>

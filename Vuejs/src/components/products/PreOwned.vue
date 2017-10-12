@@ -1,17 +1,14 @@
 <template>
-
     <div class="pre-owned">
-       
-
         <div class="column">
             <div class="container-fluid background-light-black ">
                 <div class="container background-light-black ">
-                    <div class="clearfix row background-light-black everyDevice text-white   padding-2x-top  padding-4x-bottom" style="background-image: url('\2f content\2f dam\2f crown\2fimages\2fproducts-page\2fused-forklifts\2fpre-owned-forklifts-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                    <div class="clearfix row background-light-black everyDevice text-white   padding-2x-top  padding-4x-bottom" style="background-image: url('/static/c/pre-owned-forklifts-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                         <div class="col-sm-8 ">
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="richtext">
-                                        <div class="   padding-2x-bottom width-90 text-left">
+                                        <div class="padding-2x-bottom width-90 text-left">
                                             <p>&nbsp;</p>
                                             <h1>二手叉车</h1>
                                             <h2>几乎满足任何需求的二手叉车</h2>
@@ -41,13 +38,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image no-padding-left  no-padding-right text-black ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-inventory-feature.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-inventory-feature.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-inventory-feature.jpg" alt="crown forklift fleet stored in a warehouse" title="Pre Owned Inventory">
-                                            </picture>
+                                            <my-picture src="/static/c/pre-owned-inventory-feature.jpg" alt="crown forklift fleet stored in a warehouse" title="Pre Owned Inventory"></my-picture>
                                         </div>
                                     </div>
                                 </div>
@@ -78,7 +69,7 @@
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="richtext">
-                                        <div class="    width-100 text-left">
+                                        <div class="width-100 text-left">
                                             <h3>质量和可靠性</h3>
                                             <p>Crown-科朗的二手叉车能够提供与Crown-科朗新叉车同等的可靠服务。由于在售的Crown-科朗二手叉车中，大多数部件都是由Crown-科朗自行制造的，因此客户能够获得高品质的工艺以及对车况的准确呈现。</p>
                                         </div>
@@ -92,13 +83,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-reach-truck-feature.png.transform/mobile-image/img.png" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-reach-truck-feature.png.transform/tablet-image/img.png" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-reach-truck-feature.png" alt="forklift operator on a crown reach truck" title="Operator on forklift">
-                                            </picture>
+                                            <my-picture src="/static/c/pre-owned-reach-truck-feature.png" alt="forklift operator on a crown reach truck" title="Operator on forklift"></my-picture>
                                         </div>
                                     </div>
                                 </div>
@@ -116,14 +101,8 @@
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="imagecomponent">
-                                        <div class="container-image no-padding-top  text-black ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-inspection-safety-feature.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-inspection-safety-feature.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/pre-owned-inspection-safety-feature.jpg" alt="service technician performs maintenance on a crown reach truck" title="service safety inspection">
-                                            </picture>
+                                        <div class="container-image no-padding-top text-black">
+                                            <my-picture src="/static/c/pre-owned-inspection-safety-feature.jpg" alt="service technician performs maintenance on a crown reach truck" title="service safety inspection"></my-picture>
                                         </div>
                                     </div>
                                 </div>
@@ -133,7 +112,7 @@
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="richtext">
-                                        <div class="    width-100 text-left">
+                                        <div class="width-100 text-left">
                                             <h3>安全、高效的性能</h3>
                                             <p>Crown-科朗设计和制造的叉车能够提供高效、符合人体工学、安全的操作体验。我们的二手叉车接受了全面检测，以确保符合我们的安全和性能标准。</p>
                                         </div>
@@ -168,13 +147,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/crown-support-service-feature.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/crown-support-service-feature.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/products-page/used-forklifts/crown-support-service-feature.jpg" alt="two crown service technicians with crown service van" title="Crown Service Vehicle">
-                                            </picture>
+                                            <my-picture src="/static/c/crown-support-service-feature.jpg" alt="two crown service technicians with crown service van" title="Crown Service Vehicle"></my-picture>
                                         </div>
                                     </div>
                                 </div>

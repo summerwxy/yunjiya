@@ -21,11 +21,11 @@
                                                         <i class="fa fa-map-marker fa-fw fa-lg"></i>
                                                     </div>
                                                     <div class="text-column">
-                                                        <a href="http://www.crown.com/content/zh-cn/forklift-dealers.html">
+                                                        <router-link to="forklift-dealers">
                                                             <div>
                                                                 <p>查找经销商</p>
                                                             </div>
-                                                        </a>
+                                                        </router-link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -61,7 +61,7 @@
                                         <div class="parsys">
                                             <div class="richtext">
                                                 <div class=" padding-2x-top width-100">
-                                                    <h6>关于 Crown-科朗</h6>
+                                                    <h6>关于 Yunjiya-云吉亚</h6>
                                                 </div>
                                                 <div class="clearfix"></div>
                                             </div>
@@ -112,7 +112,7 @@
                                                             Search
                                                         </span>
                                                     </label>
-                                                    <input id="sitesearch" class="sitesearch" maxlength="2048" name="q" placeholder="搜索 Crown-科朗"/>
+                                                    <input id="sitesearch" class="sitesearch" maxlength="2048" name="q" placeholder="搜索 Yunjiya-云吉亚"/>
                                                 </form>            
                                             </div>
                                         </div>
@@ -133,10 +133,10 @@
                                                 <div class="width-100 text-left">
                                                     <p>
                                                         <span class="text-grey-lighter">
-                                                            © 2002-2017 科朗设备（苏州）有限公司&nbsp; | 
+                                                            © 2017 云吉亚设备有限公司&nbsp; | 
                                                             &nbsp;<a href="http://www.crown.com/zh-cn/legal-policies.html" target="_blank">法律政策</a>&nbsp; |
                                                             &nbsp;<a href="http://www.crown.com/content/dam/crown/pdfs/zh-cn/legal/code-of-conduct.pdf" target="_blank">行为准则</a>&nbsp;&nbsp;|
-                                                            <a href="http://www.miitbeian.gov.cn/" target="_blank">&nbsp;苏ICP备10029256号-1</a>
+                                                            <a href="http://www.miitbeian.gov.cn/" target="_blank">&nbsp;苏ICP备10099999号-1</a>
                                                         </span>
                                                     </p>
                                                 </div>

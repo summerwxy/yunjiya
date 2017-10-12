@@ -21,21 +21,6 @@
                 </a>           
             </li>
         </ul>
-        <!-- 
-        <script>
-            'use strict';
-
-            jQuery(document).ready (function (){
-                var $socialShare = jQuery('#mainpar\u002Dsocialconnect-connect-list');
-                $socialShare.find('li').hover(function() {
-                    jQuery(this).addClass('hover');
-                }, function() {
-                    jQuery(this).removeClass('hover');
-                });
-                }
-            );
-        </script>
-        -->
     </div>
 
 </template>
@@ -47,6 +32,17 @@ export default {
     return {
       msg: 'i am my-header tag'
     }
+  },
+  mounted () {
+    this.$nextTick(() => {
+      var jQuery = window.jQuery
+      var $socialShare = jQuery('#mainpar-socialconnect-connect-list')
+      $socialShare.find('li').hover(function () {
+        jQuery(this).addClass('hover')
+      }, function () {
+        jQuery(this).removeClass('hover')
+      })
+    })
   }
 }
 </script>

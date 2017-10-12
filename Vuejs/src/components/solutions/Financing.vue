@@ -8,7 +8,7 @@
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="richtext">
-                                        <div class="    width-100 text-left">
+                                        <div class="width-100 text-left">
                                             <h1>金融</h1>
                                             <h2>灵活的财务方案</h2>
                                             <p>购买、租赁或租借新叉车和二手叉车。Crown-科朗灵活的金融选择意味着客户能够以符合自身预算的价格获得所需的设备和服务。</p>
@@ -29,8 +29,8 @@
             </div>
         </div>
         <div class="column">
-            <div class="container-fluid  ">
-                <div class="container  ">
+            <div class="container-fluid">
+                <div class="container">
                     <div class="clearfix row  everyDevice text-black container-vertical-aligned  padding-4x-top  padding-4x-bottom" style="background-image: url('');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                         <div class="col-sm-6 vertical-align-middle">
                             <div class="container-inner">
@@ -51,13 +51,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/financing-options/purchase-pallet-truck-feature.png.transform/mobile-image/img.png" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/financing-options/purchase-pallet-truck-feature.png.transform/tablet-image/img.png" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/solutions/financing-options/purchase-pallet-truck-feature.png" alt="forklift operator moves load with crown walkie pallet truck" title="Pallet Truck with Operator">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/solutions/financing-options/purchase-pallet-truck-feature.png" alt="forklift operator moves load with crown walkie pallet truck" title="Pallet Truck with Operator"/>
                                         </div>
                                     </div>
                                 </div>
@@ -76,13 +70,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/financing-options/lease-forklift-feature.png.transform/mobile-image/img.png" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/solutions/financing-options/lease-forklift-feature.png.transform/tablet-image/img.png" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/solutions/financing-options/lease-forklift-feature.png" alt="Operator navigating on sit down counterbalance forklift" title="Forklift FC Operator">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/solutions/financing-options/lease-forklift-feature.png" alt="Operator navigating on sit down counterbalance forklift" title="Forklift FC Operator"/>
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +80,7 @@
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="richtext">
-                                        <div class="    width-100 text-left">
+                                        <div class="width-100 text-left">
                                             <h3>租赁</h3>
                                             <p>立刻租到合适叉车。Crown-科朗的经销商网络拥有最新、最广泛的叉车可供客户租赁，同时提供业内领先的支持服务。</p>
                                             <p>我们提供：</p>
@@ -101,8 +89,8 @@
                                     </div>
                                     <div class="textwithicon">
                                         <div>
-                                            <div class="icon-column  padding-2x-left  "><i class="fa fa-check-circle-o fa-fw fa-3x text-orange"></i></div>
-                                            <div class="text-column oneX-top-padding   ">
+                                            <div class="icon-column  padding-2x-left"><i class="fa fa-check-circle-o fa-fw fa-3x text-orange"></i></div>
+                                            <div class="text-column oneX-top-padding">
                                                 <p></p>
                                                 <p>针对苛刻应用工况的重型设计。</p>
                                             </div>

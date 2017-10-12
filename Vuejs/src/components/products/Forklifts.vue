@@ -363,7 +363,6 @@ export default {
     }
   },
   mounted () {
-    // TODO: fitText 不知道什麼東西, 沒有用到
     this.$nextTick(() => {
       var jQuery = window.jQuery
       jQuery(document).ready(function () {
@@ -374,7 +373,6 @@ export default {
             jQuery(this).closest('.item').removeClass('open')
           })
         })
-        // jQuery('.fitText').fitText()
       })
       // close item when clicking out side of an item.
       jQuery(document).mouseup(function (e) {
@@ -384,14 +382,12 @@ export default {
           container.removeClass('open')
         }
       })
-
       window.initStickyNav()
     })
   }
 }
 </script>
 
-< ! - - Add "scoped" attribute to limit CSS to this component only - - >
 <style scoped>
 
 </style>

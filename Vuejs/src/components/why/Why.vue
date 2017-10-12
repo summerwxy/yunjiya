@@ -3,12 +3,12 @@
         <div class="column">
             <div class="container-fluid background-grey-darkest ">
                 <div class="container background-grey-darkest ">
-                    <div class="clearfix row background-grey-darkest everyDevice text-white   padding-6x-top  padding-6x-bottom" style="background-image: url('http://www.crown.com/content/dam/crown/images/why-crown/why-crown-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                    <div class="clearfix row background-grey-darkest everyDevice text-white   padding-6x-top  padding-6x-bottom" style="background-image: url('/static/c/why-crown-hero.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                         <div class="col-sm-8 ">
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="richtext">
-                                        <div class="    width-100 text-left">
+                                        <div class="width-100 text-left">
                                             <h1>为什么选择Crown-科朗</h1>
                                             <h2>行业创新领导者</h2>
                                             <p>客户和行业专家的一致选择 - Crown-科朗因其屡获殊荣的产品设计、先进的工程技术和对可持续发展的承诺而著称。</p>
@@ -118,14 +118,8 @@
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="imagecomponent">
-                                        <div class="container-image text-black clearfix            ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/companies-choose-crown.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/companies-choose-crown.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/why-crown/companies-choose-crown.jpg" alt="Innovative companies choose Crown as their material handling equipment supplier">
-                                            </picture>
+                                        <div class="container-image text-black clearfix">
+                                            <my-picture src="/static/c/companies-choose-crown.jpg" alt="Innovative companies choose Crown as their material handling equipment supplier"/>
                                         </div>
                                     </div>
                                 </div>
@@ -138,19 +132,13 @@
         <div class="column">
             <div id="customerresults" class="container-fluid background-grey-darker ">
                 <div class="container background-grey-darker ">
-                    <div class="clearfix row background-grey-darker desktopTabletOnly text-white container-vertical-aligned  no-padding-top  no-padding-bottom" style="background-image: url('http://www.crown.com/content/dam/crown/images/why-crown/customer-results-feature-bg.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                    <div class="clearfix row background-grey-darker desktopTabletOnly text-white container-vertical-aligned  no-padding-top  no-padding-bottom" style="background-image: url('/static/c/customer-results-feature-bg.jpg');background-repeat: no-repeat; background-size: cover; background-position: center center;">
                         <div class="col-sm-6 vertical-align-middle">
                             <div class="container-inner">
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/customer-result-feature.png.transform/mobile-image/img.png" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/customer-result-feature.png.transform/tablet-image/img.png" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/why-crown/customer-result-feature.png" alt="Forklift operator wearing a safety helmet.">
-                                            </picture>
+                                            <my-picture src="/static/c/customer-result-feature.png" alt="Forklift operator wearing a safety helmet."/>
                                         </div>
                                     </div>
                                 </div>
@@ -205,13 +193,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black clearfix            ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/awards-quick-pick.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/awards-quick-pick.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/why-crown/awards-quick-pick.jpg" alt="QuickPick Remote order picking glove">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/why-crown/awards-quick-pick.jpg" alt="QuickPick Remote order picking glove"/>
                                         </div>
                                     </div>
                                 </div>
@@ -230,13 +212,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black clearfix            ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/sustainability-feature.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/sustainability-feature.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/why-crown/sustainability-feature.jpg" alt="Crown strives to be an environmentally friendly company in all operations">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/why-crown/sustainability-feature.jpg" alt="Crown strives to be an environmentally friendly company in all operations"/>
                                         </div>
                                     </div>
                                 </div>

@@ -36,13 +36,14 @@
                                     <div class="nav-button-navigation navbar-right text-right hidden-lg">  
                                         <ul class="list-inline">
                                             <li>
-                                                <a href="http://www.crown.com/zh-cn/forklift-dealers.html" class="btn-dealerLocator btn-orange">
-                                                    <i class="fa fa-map-marker"></i> <span class="btn-dealerLocator-text">查找当地经销商</span>
+                                                <a href="tel:13812791230" class="btn-dealerLocator btn-orange">
+                                                    <i class="fa fa-phone"></i>
+                                                    <span class="btn-dealerLocator-text">13812791230</span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" class="btn-search text-black " data-toggle="modal" data-target="#modal-search">
-                                                    <i class="fa fa-search"></i> <span class="btn-search-text hidden-xs">搜索 Crown-科朗</span>                          
+                                                    <i class="fa fa-search"></i> <span class="btn-search-text hidden-xs">搜索 Yunjiya-云吉亚</span>                          
                                                 </a>
                                             </li>
                                         </ul>
@@ -58,19 +59,21 @@
                                     </div>
                                     <div class="collapse navbar-collapse theme-navbar-collapse " id="navbar-main">
                                         <ul class="nav navbar-nav theme-navbar-nav ">
-                                              <li class="dropdown" v-for="(category, index) in menu">
-                                                <a data-target="#" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <li v-for="(category, index) in menu" :class="{'dropdown': !category.path, 'nav-item': !!category.path}">
+
+                                                <router-link v-if="!!category.path" class="nav-link" :to="'/' + category.path">{{category.category}}</router-link>
+
+                                                <a v-if="!category.path" data-target="#" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     {{ category.category }}
                                                 </a>
-                                                <label class="hidden">Drawer</label>
-                                                <div class="dropdown-menu theme-nav-dropdown-menu background-black" role="menu">
+                                                <label v-if="!category.path" class="hidden">Drawer</label>
+                                                <div v-if="!category.path" class="dropdown-menu theme-nav-dropdown-menu background-black" role="menu">
                                                     <div class="container container-dropdown text-white background-black">
                                                         <div class="row">
                                                             <div class="col-sm-4 theme-nav-dropdown-menu-list-container">
                                                                 <ul class="theme-nav-dropdown-menu-list">
                                                                     <li role="presentation" v-for="(item, j) in category.items">
-                                                                        <router-link :to="item.path" v-if="item.path">{{item.title}}</router-link>
-                                                                        <a role="menuitem" tabindex="-1" v-else :href="item.url" style="color: red;">{{item.title}}</a>
+                                                                        <router-link :to="'/' + item.path">{{item.title}}</router-link>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -88,6 +91,7 @@
                                                     <div class="dropdown-bottom-line"></div>
                                                 </div>
                                             </li>
+
                                             <li v-for="(link, i) in links">
                                                 <a :href="link.url" class="dropdown-toggle link-only mobile-only link-only" style="color: lightpink;">{{link.text}}</a>
                                             </li>
@@ -97,17 +101,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="nav-button-navigation navbar-right visible-lg">
+                                    <div v-if="false" class="nav-button-navigation navbar-right visible-lg">
                                         <ul class="list-inline">
                                             <li>
-                                                <a href="http://www.crown.com/zh-cn/forklift-dealers.html" class="btn-dealerLocator btn-orange">
-                                                    <i class="fa fa-map-marker"></i>
-                                                    <span class="btn-dealerLocator-text">查找当地经销商</span>
+                                                <a href="tel:13812791230" class="btn-dealerLocator btn-orange">
+                                                    <i class="fa fa-phone"></i>
+                                                    <span class="btn-dealerLocator-text">13812791230</span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#" class="btn-search btn-rounded btn-grey-lightester text-black " data-toggle="modal" data-target="#modal-search">
-                                                    <i class="fa fa-search"></i> <span class="btn-search-text">搜索 Crown-科朗</span>
+                                                    <i class="fa fa-search"></i> <span class="btn-search-text">搜索 Yunjiya-云吉亚</span>
                                                 </a>
                                             </li>
                                         </ul>
@@ -158,30 +162,45 @@ export default {
       header_phone: '联系电话：13812791230',
       header_email: '电子邮箱：lemon@yunjiya.cn',
       logo_url: '/static/title_logo.png',
-      logo_title: '云吉亚 Yunjiya',
+      logo_title: '云吉亚机械 Yunjiya',
       menu: [{
-        category: '产品',
-        items: [{title: '全新叉车', path: 'forklifts'},
-          {title: '租赁叉车', path: 'rentals'},
-          {title: '二手叉车', path: 'pre-owned'},
-          {title: '查看所有产品', path: 'products'}]
+        category: '公司简介',
+        path: 'introduction'
       }, {
-        category: '解决方案',
-        items: [{title: '车队管理', path: 'fleet-management'},
-          {title: '金融方案', path: 'financing'},
-          {title: '查看所有解决方案', path: 'solutions'}]
+        category: '产品展示',
+        items: [{title: '品牌A', path: 'brand/aa'},
+          {title: '品牌B', path: 'brand/bb'},
+          {title: '品牌C', path: 'brand/cc'},
+          {title: '品牌D', path: 'brand/dd'}]
       }, {
-        category: '支持',
-        items: [{title: '安全与培训', path: 'safety-training'},
-          {title: '服务与部件', path: 'service-parts'},
-          {title: '经销商网络', path: 'forklift-dealers'},
-          {title: '查看所有支持', path: 'support'}]
+        category: '二手车业务',
+        path: 'used'
       }, {
-        category: '为什么选择 Crown-科朗',
-        items: [{title: '客户案例', path: 'customer-results'},
-          {title: '可持续发展', path: 'sustainability'},
-          {title: '行业认可', path: 'awards'},
-          {title: '为什么选择 Crown-科朗', path: 'why'}]
+        category: '租赁业务',
+        path: 'rental'
+      }, {
+        category: '配件维修',
+        path: 'parts'
+      }, {
+        category: '动态',
+        path: 'news'
+      }, {
+        category: '[X]',
+        items: [{title: '产品-全新叉车', path: 'forklifts'},
+          {title: '产品-租赁叉车', path: 'rentals'},
+          {title: '产品-二手叉车', path: 'pre-owned'},
+          {title: '产品-查看所有产品', path: 'products'},
+          {title: '解决方案-车队管理', path: 'fleet-management'},
+          {title: '解决方案-金融方案', path: 'financing'},
+          {title: '解决方案-查看所有解决方案', path: 'solutions'},
+          {title: '支持-安全与培训', path: 'safety-training'},
+          {title: '支持-服务与部件', path: 'service-parts'},
+          {title: '支持-经销商网络', path: 'forklift-dealers'},
+          {title: '支持-查看所有支持', path: 'support'},
+          {title: '为什么-客户案例', path: 'customer-results'},
+          {title: '为什么-可持续发展', path: 'sustainability'},
+          {title: '为什么-行业认可', path: 'awards'},
+          {title: '为什么-为什么选择 Yunjiya-云吉亚', path: 'why'}]
       }],
       links: [
         {text: '联系电话：13812791230', url: 'tel:13812791230'},
@@ -192,7 +211,11 @@ export default {
   }
 }
 </script>
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
 
+<style scoped>
+@media (min-width: 1199px) {
+    .header-main .theme-navbar-nav>li>a.nav-link:after {
+        content: '';
+    }
+}
 </style>

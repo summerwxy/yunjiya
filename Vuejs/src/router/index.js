@@ -17,11 +17,24 @@ import CustomerResults from '@/components/why/CustomerResults'
 import Sustainability from '@/components/why/Sustainability'
 import Awards from '@/components/why/Awards'
 import Why from '@/components/why/Why'
+import Introduction from '@/components/pages/Introduction'
+import Used from '@/components/pages/Used'
+import Rental from '@/components/pages/Rental'
+import Parts from '@/components/pages/Parts'
+import News from '@/components/pages/News'
+import Brand from '@/components/pages/Brand'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
+    { path: '/introduction', name: 'Introduction', component: Introduction },
+    { path: '/used', name: 'Used', component: Used },
+    { path: '/rental', name: 'Rental', component: Rental },
+    { path: '/parts', name: 'Parts', component: Parts },
+    { path: '/news', name: 'News', component: News },
+    { path: '/brand/:name', name: 'Brand', component: Brand },
     { path: '/hello', name: 'Hello', component: Hello },
     { path: '/forklifts', name: 'Forklifts', component: Forklifts },
     { path: '/rentals', name: 'Rentals', component: Rentals },
@@ -39,5 +52,12 @@ export default new Router({
     { path: '/awards', name: 'Awards', component: Awards },
     { path: '/why', name: 'Why', component: Why },
     { path: '/', name: 'Home', component: Home }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) { // https://router.vuejs.org/en/advanced/scroll-behavior.html
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })

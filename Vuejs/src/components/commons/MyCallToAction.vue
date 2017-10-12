@@ -25,13 +25,12 @@
 </template>
 
 <script>
-// TODO: 有個 icon -forklift 這個需要處理
 export default {
   name: 'calltoaction',
   data () {
     return {
       callToAction: [{url: 'http://www.crown.com/zh-cn/', icon: 'fa fa-comment fa-3x fa-fw', title: '请求更多信息', text: '寻求我们的帮助。'},
-        {url: 'http://www.crown.com/zh-cn/forklift-rentals.html', icon: 'fa icon-crown icon-forklift fa-3x fa-fw', title: '需要租赁叉车？', text: '详细了解我们的租赁库存。'},
+        {url: 'http://www.crown.com/zh-cn/forklift-rentals.html', icon: 'fa icon-forklift fa-3x fa-fw', title: '需要租赁叉车？', text: '详细了解我们的租赁库存。'},
         {url: 'http://www.crown.com/zh-cn/forklift-dealers.html', icon: 'fa fa-map-marker fa-3x fa-fw', title: '查找附近的Crown-科朗公司', text: '搜索Crown-科朗分公司或经销商。'}],
       dummy: 'DUMMY'
     }

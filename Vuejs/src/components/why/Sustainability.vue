@@ -23,13 +23,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black clearfix            ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/sustainability/sustainability-hero.png.transform/mobile-image/img.png" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/sustainability/sustainability-hero.png.transform/tablet-image/img.png" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/why-crown/sustainability/sustainability-hero.png" alt="Crown's sustainability practices aim to be smart, clean and green.">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/why-crown/sustainability/sustainability-hero.png" alt="Crown's sustainability practices aim to be smart, clean and green."/>
                                         </div>
                                     </div>
                                 </div>
@@ -263,13 +257,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image padding-4x-top  text-black clearfix        ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/sustainability/ecologic-logo-chinese.gif.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/why-crown/sustainability/ecologic-logo-chinese.gif.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/why-crown/sustainability/ecologic-logo-chinese.gif" alt="Crown Ecologic">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/why-crown/sustainability/ecologic-logo-chinese.gif" alt="Crown Ecologic"/>
                                         </div>
                                     </div>
                                 </div>

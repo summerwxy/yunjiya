@@ -82,13 +82,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/support/parts-and-service/integrity-service-feature.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/support/parts-and-service/integrity-service-feature.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/support/parts-and-service/integrity-service-feature.jpg" alt="Crown service technician performs service on lift truck" title="Service Tech">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/support/parts-and-service/integrity-service-feature.jpg" alt="Crown service technician performs service on lift truck" title="Service Tech"/>
                                         </div>
                                     </div>
                                 </div>

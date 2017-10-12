@@ -23,13 +23,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black clearfix">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/support/support-network-mobile-hero.png.transform/mobile-image/img.png" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/support/support-network-mobile-hero.png.transform/tablet-image/img.png" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/support/support-network-mobile-hero.png" alt="three members of Crown's extensive dealer support network">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/support/support-network-mobile-hero.png" alt="three members of Crown's extensive dealer support network"/>
                                         </div>
                                     </div>
                                 </div>
@@ -134,13 +128,7 @@
                                 <div class="parsys">
                                     <div class="imagecomponent">
                                         <div class="container-image text-black ">
-                                            <picture>
-                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/support/service-parts-feature.jpg.transform/mobile-image/img.jpg" media="(max-width: 450px)">
-                                                <source srcset="http://www.crown.com/content/dam/crown/images/support/service-parts-feature.jpg.transform/tablet-image/img.jpg" media="(max-width: 768px)">
-                                                <!--[if IE 9]></video><![endif]-->
-                                                <img class="img-responsive " src="http://www.crown.com/content/dam/crown/images/support/service-parts-feature.jpg" alt="additional parts from the Crown Integrity Parts System" title="Service and Parts">
-                                            </picture>
+                                            <my-picture src="http://www.crown.com/content/dam/crown/images/support/service-parts-feature.jpg" alt="additional parts from the Crown Integrity Parts System" title="Service and Parts"/>
                                         </div>
                                     </div>
                                 </div>
