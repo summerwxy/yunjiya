@@ -67,37 +67,37 @@ div.search span.icon img {
 }
 div.search span.icon  {
     padding: 0 2px 8px 0;
-    background: url(../../designs/default/images/icons/default.gif) no-repeat
+    background: url(../images/icons/default.gif) no-repeat
 }
 div.search span.icon.type_doc  {
-    background: url(../../designs/default/images/icons/doc.gif) no-repeat
+    background: url(../images/icons/doc.gif) no-repeat
 }
 div.search span.icon.type_eps  {
-    background: url(../../designs/default/images/icons/eps.gif) no-repeat
+    background: url(../images/icons/eps.gif) no-repeat
 }
 div.search span.icon.type_gif  {
-    background: url(../../designs/default/images/icons/zip.gif) no-repeat
+    background: url(../images/icons/zip.gif) no-repeat
 }
 div.search span.icon.type_jpg  {
-    background: url(../../designs/default/images/icons/jpg.gif) no-repeat
+    background: url(../images/icons/jpg.gif) no-repeat
 }
 div.search span.icon.type_pdf  {
-    background: url(../../designs/default/images/icons/pdf.gif) no-repeat
+    background: url(../images/icons/pdf.gif) no-repeat
 }
 div.search span.icon.type_ppt  {
-    background: url(../../designs/default/images/icons/ppt.gif) no-repeat
+    background: url(../images/icons/ppt.gif) no-repeat
 }
 div.search span.icon.type_tif  {
-    background: url(../../designs/default/images/icons/tif.gif) no-repeat
+    background: url(../images/icons/tif.gif) no-repeat
 }
 div.search span.icon.type_txt  {
-    background: url(../../designs/default/images/icons/txt.gif) no-repeat
+    background: url(../images/icons/txt.gif) no-repeat
 }
 div.search span.icon.type_xls  {
-    background: url(../../designs/default/images/icons/xls.gif) no-repeat
+    background: url(../images/icons/xls.gif) no-repeat
 }
 div.search span.icon.type_zip  {
-    background: url(../../designs/default/images/icons/zip.gif) no-repeat
+    background: url(../images/icons/zip.gif) no-repeat
 }
 
 #profile_view .form_leftcol {
@@ -164,37 +164,37 @@ div.download span.icon img {
 div.download span.icon  {
     float: left;
     padding: 0 8px 8px 0;
-    background: url(../../designs/default/images/icons/default.gif) no-repeat
+    background: url(../images/icons/default.gif) no-repeat
 }
 div.download span.icon.type_doc  {
-    background: url(../../designs/default/images/icons/doc.gif) no-repeat
+    background: url(../images/icons/doc.gif) no-repeat
 }
 div.download span.icon.type_eps  {
-    background: url(../../designs/default/images/icons/eps.gif) no-repeat
+    background: url(../images/icons/eps.gif) no-repeat
 }
 div.download span.icon.type_gif  {
-    background: url(../../designs/default/images/icons/zip.gif) no-repeat
+    background: url(../images/icons/zip.gif) no-repeat
 }
 div.download span.icon.type_jpg  {
-    background: url(../../designs/default/images/icons/jpg.gif) no-repeat
+    background: url(../images/icons/jpg.gif) no-repeat
 }
 div.download span.icon.type_pdf  {
-    background: url(../../designs/default/images/icons/pdf.gif) no-repeat
+    background: url(../images/icons/pdf.gif) no-repeat
 }
 div.download span.icon.type_ppt  {
-    background: url(../../designs/default/images/icons/ppt.gif) no-repeat
+    background: url(../images/icons/ppt.gif) no-repeat
 }
 div.download span.icon.type_tif  {
-    background: url(../../designs/default/images/icons/tif.gif) no-repeat
+    background: url(../images/icons/tif.gif) no-repeat
 }
 div.download span.icon.type_txt  {
-    background: url(../../designs/default/images/icons/txt.gif) no-repeat
+    background: url(../images/icons/txt.gif) no-repeat
 }
 div.download span.icon.type_xls  {
-    background: url(../../designs/default/images/icons/xls.gif) no-repeat
+    background: url(../images/icons/xls.gif) no-repeat
 }
 div.download span.icon.type_zip  {
-    background: url(../../designs/default/images/icons/zip.gif) no-repeat
+    background: url(../images/icons/zip.gif) no-repeat
 }
 
 div.carousel {
@@ -317,7 +317,7 @@ div.carousel {
     width: 24px;
     height: 48px;
     top: 111px; /* 270/2 - 24 */
-    background: url("../../designs/default/images/carousel/controls.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/carousel/controls.png") no-repeat scroll 0 0 transparent;
     visibility: hidden;
 }
 .cq-carousel-controls a.cq-carousel-active {
@@ -341,7 +341,7 @@ a.cq-carousel-control-next:hover {
 
 .cq-carousel-banner-switch a {
     display: inline-block;
-    background: url("../../designs/default/images/carousel/switcher.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/carousel/switcher.png") no-repeat scroll 0 0 transparent;
 }
 .cq-carousel-banner-switch a img {
     width: 25px;
@@ -376,7 +376,7 @@ a.cq-carousel-control-next:hover {
 }
 
 .form_section .input_box1 {
-    background: url(../../designs/default/images/input_box.gif) no-repeat 0 0;
+    background: url(../images/input_box.gif) no-repeat 0 0;
     width: 185px;
     height: 23px;
     float: left;
@@ -394,7 +394,7 @@ a.cq-carousel-control-next:hover {
 }
 
 .form_section input.sign_up {
-    background: url(../../designs/default/images/sign_up_btn.gif) no-repeat 0 0;
+    background: url(../images/sign_up_btn.gif) no-repeat 0 0;
     width: 82px;
     height: 23px;
     float: left;
@@ -416,7 +416,7 @@ form .form_field_checkbox, form .form_field_radio {
 }
 
 form .form_field_text, form .form_field_textarea {
-    background:url("../../designs/default/images/social/fieldbg.gif") repeat-x scroll center top #FFFFFF;
+    background:url("../images/social/fieldbg.gif") repeat-x scroll center top #FFFFFF;
     border-color:#7C7C7C #C3C3C3 #DDDDDD;
     border-style:solid;
     border-width:1px;
@@ -632,36 +632,36 @@ div.search span.icon img {
 }
 div.search span.icon  {
     padding: 0 2px 8px 0;
-    background: url(../../../apps/etc/designs/default/images/icons/default.gif) no-repeat
+    background: url(../images/icons/default.gif) no-repeat
 }
 div.search span.icon.type_doc  {
-    background: url(../../../apps/etc/designs/default/images/icons/doc.gif) no-repeat
+    background: url(../images/icons/doc.gif) no-repeat
 }
 div.search span.icon.type_eps  {
-    background: url(../../../apps/etc/designs/default/images/icons/eps.gif) no-repeat
+    background: url(../images/icons/eps.gif) no-repeat
 }
 div.search span.icon.type_gif  {
-    background: url(../../../apps/etc/designs/default/images/icons/zip.gif) no-repeat
+    background: url(../images/icons/zip.gif) no-repeat
 }
 div.search span.icon.type_jpg  {
-    background: url(../../../apps/etc/designs/default/images/icons/jpg.gif) no-repeat
+    background: url(../images/icons/jpg.gif) no-repeat
 }
 div.search span.icon.type_pdf  {
-    background: url(../../../apps/etc/designs/default/images/icons/pdf.gif) no-repeat
+    background: url(../images/icons/pdf.gif) no-repeat
 }
 div.search span.icon.type_ppt  {
-    background: url(../../../apps/etc/designs/default/images/icons/ppt.gif) no-repeat
+    background: url(../images/icons/ppt.gif) no-repeat
 }
 div.search span.icon.type_tif  {
-    background: url(../../../apps/etc/designs/default/images/icons/tif.gif) no-repeat
+    background: url(../images/icons/tif.gif) no-repeat
 }
 div.search span.icon.type_txt  {
-    background: url(../../../apps/etc/designs/default/images/icons/txt.gif) no-repeat
+    background: url(../images/icons/txt.gif) no-repeat
 }
 div.search span.icon.type_xls  {
-    background: url(../../../apps/etc/designs/default/images/icons/xls.gif) no-repeat
+    background: url(../images/icons/xls.gif) no-repeat
 }
 div.search span.icon.type_zip  {
-    background: url(../../../apps/etc/designs/default/images/icons/zip.gif) no-repeat
+    background: url(../images/icons/zip.gif) no-repeat
 }
 

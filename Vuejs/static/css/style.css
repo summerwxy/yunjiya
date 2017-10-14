@@ -27,3 +27,7 @@
 .icon-forklift:before {
   content: "\1f436";
 }
+
+.breadcrumb-container .breadcrumb {
+  background-color: transparent;
+}

@@ -4,13 +4,34 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import MyPicture from './components/commons/MyPicture'
+import Ycolumn from './components/commons/Ycolumn'
 
 // === css ===
 require('font-awesome/css/font-awesome.css') // font-awesome
-require('../static/styles/style.css')
+require('bootstrap/dist/css/bootstrap.css') // bootstrap
+require('../static/css/main.css')
+require('../static/css/application.css')
+require('../static/css/slider.css')
+require('../static/css/style.css') // 自己寫的
+
+// === js ===
+import jQuery from 'jquery/dist/jquery.min.js' // jquery
+window.jQuery = jQuery
+window.$ = jQuery
+require('../static/js/granite_utils.js') // TODO: TEST
+// require('../static/js/granite.js') // TODO: delete this file ??
+require('../static/js/foundation_jquery.js') // TODO: TEST
+require('../static/js/foundation_main.js') // TODO: TEST
+// require('../static/js/modernizr-2.6.2.min.js') // TODO: put it in index.html
+require('bootstrap/dist/js/bootstrap.min.js') // bootsteap require('../static/js/bootstrap.min.js')
+require('../static/js/jquery-picture-min.js') // TODO: TEST
+require('../static/js/jquery-ui.min.js') // TODO: TEST
+require('../static/js/picturefill.min.js') // TODO: TEST
+require('../static/js/clientlib.js') // TODO: TEST
 
 // reigister globally components
 Vue.component('my-picture', MyPicture)
+Vue.component('ycolumn', Ycolumn)
 
 Vue.config.productionTip = false
 

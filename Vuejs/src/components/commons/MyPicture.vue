@@ -4,7 +4,7 @@
         <source :srcset="src1(src)" media="(max-width: 450px)">
         <source :srcset="src2(src)" media="(max-width: 768px)">
         <!--[if IE 9]></video><![endif]-->
-        <img class="img-responsive " :src="src" :alt="alt" :title="title">
+        <img class="img-responsive" :src="src" :alt="alt" :title="title">
     </picture>
 </template>
 
