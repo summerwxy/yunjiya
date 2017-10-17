@@ -316,12 +316,8 @@
 </template>
 
 <script>
-import MyCallToAction from '../commons/MyCallToAction'
 export default {
   name: 'customer-results',
-  components: {
-    MyCallToAction
-  },
   data () {
     return {
       dummy: 'DUMMY'

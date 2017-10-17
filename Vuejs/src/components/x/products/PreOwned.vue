@@ -165,12 +165,8 @@
 </template>
 
 <script>
-import MyCallToAction from '../commons/MyCallToAction'
 export default {
   name: 'pre-owned',
-  components: {
-    MyCallToAction
-  },
   data () {
     return {
       dummy: 'DUMMY'

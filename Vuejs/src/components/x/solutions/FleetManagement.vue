@@ -99,12 +99,8 @@
 </template>
 
 <script>
-import MyCallToAction from '../commons/MyCallToAction'
 export default {
   name: 'fleet-management',
-  components: {
-    MyCallToAction
-  },
   data () {
     return {
       dummy: 'DUMMY'

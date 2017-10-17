@@ -390,12 +390,8 @@
 </template>
 
 <script>
-import MyCallToAction from '../commons/MyCallToAction'
 export default {
   name: 'forklift-dealers',
-  components: {
-    MyCallToAction
-  },
   data () {
     return {
       dummy: 'DUMMY'

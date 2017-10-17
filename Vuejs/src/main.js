@@ -5,10 +5,12 @@ import App from './App'
 import router from './router'
 import MyPicture from './components/commons/MyPicture'
 import Ycolumn from './components/commons/Ycolumn'
+import Ystickynav from './components/commons/Ystickynav'
+import MyCallToAction from './components/commons/MyCallToAction'
 
 // === css ===
 require('font-awesome/css/font-awesome.css') // font-awesome
-require('bootstrap/dist/css/bootstrap.css') // bootstrap
+// require('bootstrap/dist/css/bootstrap.css') // bootstrap 這行造成 平板 的菜單有問題
 require('../static/css/main.css')
 require('../static/css/application.css')
 require('../static/css/slider.css')
@@ -32,6 +34,8 @@ require('../static/js/clientlib.js') // TODO: TEST
 // reigister globally components
 Vue.component('my-picture', MyPicture)
 Vue.component('ycolumn', Ycolumn)
+Vue.component('ystickynav', Ystickynav)
+Vue.component('MyCallToAction', MyCallToAction)
 
 Vue.config.productionTip = false
 

@@ -1376,12 +1376,8 @@
 </template>
 
 <script>
-import MyCallToAction from '../commons/MyCallToAction'
 export default {
   name: 'awards',
-  components: {
-    MyCallToAction
-  },
   data () {
     return {
       dummy: 'DUMMY'

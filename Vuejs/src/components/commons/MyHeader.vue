@@ -1,4 +1,5 @@
 <template>
+   
     <header>
         <div class="modal fade" id="ecatalog-viewer-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-full-page">
@@ -58,10 +59,10 @@
                                         </button>
                                     </div>
                                     <div class="collapse navbar-collapse theme-navbar-collapse " id="navbar-main">
-                                        <ul class="nav navbar-nav theme-navbar-nav ">
+                                        <ul class="nav navbar-nav theme-navbar-nav">
                                             <li v-for="(category, index) in menu" :class="{'dropdown': !category.path, 'nav-item': !!category.path}">
 
-                                                <router-link v-if="!!category.path" class="nav-link" :to="'/' + category.path">{{category.category}}</router-link>
+                                                <router-link v-if="!!category.path" class="nav-link angle-right" :to="'/' + category.path">{{category.category}}</router-link>
 
                                                 <a v-if="!category.path" data-target="#" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     {{ category.category }}
@@ -102,6 +103,7 @@
                                         </div>
                                     </div>
                                     <div v-if="false" class="nav-button-navigation navbar-right visible-lg">
+                                        <!-- 藏起來, 菜單太多 會擠到下一行 -->
                                         <ul class="list-inline">
                                             <li>
                                                 <a href="tel:13812791230" class="btn-dealerLocator btn-orange">
@@ -151,6 +153,8 @@
             </div>
         </div>
     </header>
+
+
 </template>
 
 <script>

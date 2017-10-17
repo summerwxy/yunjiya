@@ -31,3 +31,6 @@
 .breadcrumb-container .breadcrumb {
   background-color: transparent;
 }
+.header-main .theme-navbar-nav>li>a.angle-right:after {
+    content: '\f105';
+}
