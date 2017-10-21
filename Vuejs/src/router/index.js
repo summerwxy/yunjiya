@@ -23,6 +23,7 @@ import Rental from '@/components/pages/Rental'
 import Parts from '@/components/pages/Parts'
 import News from '@/components/pages/News'
 import Brand from '@/components/pages/Brand'
+import Address from '@/components/pages/Address'
 
 Vue.use(Router)
 
@@ -35,6 +36,7 @@ export default new Router({
     { path: '/parts', name: 'Parts', component: Parts },
     { path: '/news', name: 'News', component: News },
     { path: '/brand/:name', name: 'Brand', component: Brand },
+    { path: '/address', name: 'Address', component: Address },
     { path: '/hello', name: 'Hello', component: Hello },
     { path: '/forklifts', name: 'Forklifts', component: Forklifts },
     { path: '/rentals', name: 'Rentals', component: Rentals },

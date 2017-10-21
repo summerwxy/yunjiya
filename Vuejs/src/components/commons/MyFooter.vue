@@ -15,26 +15,24 @@
                                 <div class="textwithicon">
                                     <div>
                                         <div class="icon-column">
-                                            <i class="fa fa-map-marker fa-fw fa-lg"></i>
+                                            <i class="fa fa-phone fa-fw fa-lg"></i>
                                         </div>
                                         <div class="text-column">
-                                            <router-link to="forklift-dealers">
-                                                <div>
-                                                    <p>查找经销商</p>
-                                                </div>
-                                            </router-link>
+                                            <a href="tel:13812791230" class="btn-dealerLocator btn-orange">
+                                                <p>13812791230</p>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="textwithicon">
                                     <div>
                                         <div class="icon-column">
-                                            <i class="fa fa-group fa-fw fa-lg"></i>
+                                            <i class="fa fa-envelope-o fa-fw fa-lg"></i>
                                         </div>
                                         <div class="text-column">
-                                            <a href="http://www.crown.com/content/zh-cn/contact-us.html">
+                                            <a href="mailto:?Subject=云吉亚&body=你好，我在yunjiya.cn看到，想了解更多内容。">
                                                 <div>
-                                                    <p>联系我们</p>
+                                                    <p>lemon@yunjiya.cn</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -43,13 +41,18 @@
                                 <div class="textwithicon">
                                     <div>
                                         <div class="icon-column">
-                                            <i class="fa fa-phone fa-fw fa-lg"></i>
+                                            <i class="fa fa-map-marker fa-fw fa-lg"></i>
                                         </div>
                                         <div class="text-column">
-                                            <p>13812791230</p>
+                                            <router-link to="address">
+                                                <div>
+                                                    <p>苏州市相城区黄埭镇长泾村吉港桥1号</p>
+                                                </div>
+                                            </router-link>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>

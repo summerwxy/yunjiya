@@ -158,7 +158,6 @@
 </template>
 
 <script>
-// TODO: 處理 7xxpx ~ 1200px 寬度的時候, menu 怪怪的
 export default {
   name: 'header',
   data () {

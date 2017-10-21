@@ -86,12 +86,8 @@
 </template>
 
 <script>
-import MyCallToAction from '../commons/MyCallToAction'
 export default {
   name: 'brand',
-  components: {
-    MyCallToAction
-  },
   data () {
     return {
       title: '叉车',
